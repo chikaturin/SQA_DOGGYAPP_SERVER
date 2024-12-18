@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 const Tesseract = require("tesseract.js");
-const cloudinary = require("cloudinary").v2;
 
 const uploadCloud = require("./cloudinary.config");
 
